@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change Classes</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans" type="text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">    
+
+    <style>
+        html, body{
+            font-family: 'Open Sans', sans-serif;
+            font-size: 14px;
+            margin: 0;
+            min-height: 100px;
+            padding: 0;
+            background-color: black;
+            width: 384px;
+        }
+
+        h1{
+            font-family: 'Menlo', monospace;
+            font-size: 22px;
+            font-weight: 400;
+            margin: 0; 
+            color: blueviolet;
+        }
+
+        a:link, a:visited{
+            text-decoration: none;
+            outline: 0;
+            font-size: 16px;
+            padding: 0;
+            text-align: center;
+            color: blueviolet;
+        }
+
+        img{
+            width: 70px;
+        }
+
+        .modal-header{
+            align-items: center;
+            border-bottom: 0.5px solid #dadada;
+        }
+
+        .modal-content{
+            padding: 0 22px;
+        }        
+
+        .modal-icons{
+            border-top: 0.5px solid #dadada;
+            height: 50px;
+            width: 100%;
+        }
+
+        .logo{
+            padding: 16px;
+        }
+
+        .logo-icon{
+            vertical-align: textb;
+            /* margin-right: 30px; */
+            height: 30x;
+            width: 30px;
+        }
+
+        .flex-container{
+            display: flex;
+            justify-content: space-between;
+            padding: 20px 22px;
+        }
+
+        .flex{
+            opacity: 1;
+            transition: opacity 0.2s ease-in-out;
+            width: 120px;
+        }
+
+        .flex:hover{
+            opacity: 0.4;
+        }
+
+        .flex .fa{
+            font-size: 33px;
+            /* color: #1338be; */
+            color:whitesmoke;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <div class="modal-header">
+        <h1 class="logo">
+            Choose Class 
+        </h1>
+    </div>
+    <div class="modal-icons">
+        <div class="flex-container">
+            <div class="flex">                
+                <a href="https://classroom.google.com/u/2/c/MjQ5Njk5NjU0NTgz" target="_blank">
+                    <i class="fa fa-book"></i>
+                    <p> MIT </a>
+                </p>
+            </div>
+            <div class="flex">
+                <a href="https://classroom.google.com/u/2/c/MjQ5NTU4MzAyNzEx" target="_blank">
+                    <i class="fa fa-book"></i>
+                    <p> DBMS </a>
+                </a>
+            </div>
+            <div class="flex">
+                <a href="https://classroom.google.com/u/2/c/MjQ5NTQwMDM0MTg5" target="_blank">
+                    <i class="fa fa-book"></i>
+                    <p> DAA </a>
+                </a>
+            </div>
+            <div class="flex">
+                <a href="https://classroom.google.com/u/2/c/MjQ5MzkwMDU3NzE2" target="_blank">
+                    <i class="fa fa-book"></i>
+                    <p> AFL </a>
+                </a>
+            </div>
+            <div class="flex">
+                <a href="https://teams.microsoft.com/_#/school/conversations/General?threadId=19:0398ad43435d4be2ad26aa20713874a6@thread.tacv2&ctx=channel" target="_blank">
+                    <i class="fa fa-book"></i>
+                    <p> MATHS </a>
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
