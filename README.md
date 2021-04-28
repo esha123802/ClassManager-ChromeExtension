@@ -9,4 +9,3 @@ In popup.html, add links of your classroom pages and save it.
 
 Add this extension in the developer mode of your chrome extensions.
 
-Enjoy :)
